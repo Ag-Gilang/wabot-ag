@@ -364,10 +364,13 @@ module.exports = {
     let chat = global.db.data.chats[m.key.remoteJid]
     if (chat.delete) return
     await this.reply(m.key.remoteJid, `
-Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
+*「 ANTI DELETE 」*
 
-Untuk mematikan fitur ini, ketik
-*.enable delete*
+Terdeteksi @${m.participant.split`@`[0]} Telah Menghapus Pesan!
+
+-❥ *Type*: ${Object.keys(m.message.message)[0]}
+-❥ *Number*: ${require('awesome-phonenumber')(`+${m.participant.split`@`[0]}`).getNumber('international')}
+-❥ *Name*: ${this.getName(m.participant)}
 `.trim(), m.message, {
       contextInfo: {
         mentionedJid: [m.participant]
