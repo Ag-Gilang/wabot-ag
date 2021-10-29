@@ -60,7 +60,7 @@ ${spins7}|${spins8}|${spins9}
 handler.help = ['slot2', 'jackpot']
 handler.tags = ['game']
 handler.command = /^slots?|jac?kpot$/i
-handler.register = true
+handler.register = false
 
 module.exports = handler
 
