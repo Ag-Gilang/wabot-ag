@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['gay']
 handler.tags = ['maker']
-
+handler.register = true
 handler.command = /^(gay)$/i
 
 module.exports = handler
