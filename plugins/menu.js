@@ -32,21 +32,21 @@ const defaultMenu = {
   before: `
 ┌◪  *「im %me 」*
 │ │ 
-│ ├❒*Hai  : %name!*
-│ ├❒*limit : %limit Limit*
-│ ├❒*Role : %role*
-│ ├❒*Level: %level (%exp / %maxexp)* 
-│ └❒*Total Xp : %totalxp*
+│ ├❒ *Hai  : %name!*
+│ ├❒ *limit : %limit Limit*
+│ ├❒ *Role : %role*
+│ ├❒ *Level: %level (%exp / %maxexp)* 
+│ └❒ *Total Xp : %totalexp*
 │ 
 ├◪ *TIME ⏳*
-│ ├❒*Hari: %week %weton*
-│ ├❒*Tanggal : %date*
-│ └❒*Waktu: %time*
+│ ├❒ *Hari: %week %weton*
+│ ├❒ *Tanggal : %date*
+│ └❒ *Waktu: %time*
 │
 ├◪ *STATUS BOT*
-│ ├❒*Uptime: %uptime (%muptime)*
-│ ├❒*Database: %rtotalreg of %totalreg*
-│ └❒*Github: %github*
+│ ├❒ *Uptime: %uptime (%muptime)*
+│ ├❒ *Database: %rtotalreg of %totalreg*
+│ └❒ *Github: %github*
 │
 ├◪ *INFO OWNER BOT*
 ││
