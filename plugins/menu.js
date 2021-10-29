@@ -43,10 +43,10 @@ const defaultMenu = {
 │ ├❒ *Tanggal : %date*
 │ └❒ *Waktu: %time*
 │
-├◪ *STATUS BOT*
+├◪ *STATISTIC BOT*
 │ ├❒ *Uptime: %uptime (%muptime)*
 │ ├❒ *Database: %rtotalreg of %totalreg*
-│ └❒ *Github: %github*
+│ └❒ *kosong kak*
 │
 ├◪ *INFO OWNER BOT*
 ││
