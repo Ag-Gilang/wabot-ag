@@ -1,14 +1,6 @@
 let fs = require('fs')
 let path = require('path')
 let levelling = require('../lib/levelling')
-let handler  = async (m, { conn, usedPrefix: _p, command }) => {
-let old = performance.now()
-await conn.fakeReply(m.chat, '*「 ⚠️ 」Tunggu Sebentar kak ^^*', '0@s.whatsapp.net', '*Menampilkan List Menu*', 'status@broadcast')
-const chats = conn.chats.all()
-const groups = chats.filter(v => v.jid.endsWith('g.us'))
-const groupsIn = groups.filter(v => !v.read_only)
-let tmp = './src/avatar_contact.png'
-let pantek = 'https://ibb.co/yWMdgPY'
 
 let tags = {
   'main': 'Main',
