@@ -2,5 +2,6 @@
         "clientID": "qoPc3sqYUvMvoohWSi9rdg==",
         "serverToken": "1@RgCrXQsBHWo6ftBpTwO56qoD1ia39znrDiIf0d7inlit4W+3IZNSI6IWQS/wguMS/aVw57Wlm/1uGg==",
         "clientToken": "jrV79yy1gTXY52ucq2X/FDpZp7jpKfxloHqKbNPaaAo=",
-        "encKey": "KwdQypBgUhRQ7gmFNIi+AFg8//pfQGH3Rgwfo9XSj+c=",                                                                           "macKey": "wDfrRYza8n8WZlp/uC4GYGX86L/KyoZlRpWJfqPmA58="
+        "encKey": "KwdQypBgUhRQ7gmFNIi+AFg8//pfQGH3Rgwfo9XSj+c=",     
+        "macKey": "wDfrRYza8n8WZlp/uC4GYGX86L/KyoZlRpWJfqPmA58="
 }
