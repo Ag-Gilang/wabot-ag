@@ -44,12 +44,12 @@ if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(comm
   asDocument: chat.useDocument
 })
 }
-handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
+handler.help = ['play'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
 handler.command = /^play2?$/i
 
 handler.exp = 0
-handler.limit = true
+handler.limit = false
 
 module.exports = handler
 
