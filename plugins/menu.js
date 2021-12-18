@@ -47,15 +47,13 @@ const defaultMenu = {
 ├◪ *STATISTIC BOT*
 │ ├❒ *Uptime: %uptime (%muptime)*
 │ ├❒ *Database: %rtotalreg of %totalreg*
-│ └❒ *kosong kak*
+│ └❒ *kosong*
 │
 ├◪ *INFO OWNER BOT*
-││
 │├❒ wa.me/6289678391870
-│├❒ *tele owner : @aryagilangg*
 │├❒ *Ig owner : @_aryagilang*
-│├❒ *Fb owner : Arya Gilang*
 │└❒ _*© Aryagilang*_
+│
 └───────────────────────
 
 %readmore`.trimStart(),
