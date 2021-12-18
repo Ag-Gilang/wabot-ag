@@ -20,8 +20,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Ini wm'
-global.author = 'AryaGilang'
+global.packname = 'From'
+global.author = 'AgBot<3'
 
 global.multiplier = 69 // The higher, The harder levelup
 
