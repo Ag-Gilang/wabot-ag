@@ -31,7 +31,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┌◪  *「im %me 」*
+┌◪  *「hallo, im %me 」*
 │ │ 
 │ ├❒ *Hai  : %name!*
 │ ├❒ *limit : %limit Limit*
@@ -47,11 +47,11 @@ const defaultMenu = {
 ├◪ *STATISTIC BOT*
 │ ├❒ *Uptime: %uptime (%muptime)*
 │ ├❒ *Database: %rtotalreg of %totalreg*
-│ └❒ *kosong*
+│ └❒ *© Agbot using JS*
 │
 ├◪ *INFO OWNER BOT*
-│├❒ wa.me/6289678391870
-│├❒ *Ig owner : @_aryagilang*
+│├❒ *Wa : wa.me/6289678391870*
+│├❒ *Ig : @gilangirfansyah_*
 │└❒ _*© Aryagilang*_
 │
 └───────────────────────
